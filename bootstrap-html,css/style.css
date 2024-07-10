@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.navbar-nav {
+    margin-left: 650px;
+}
+
+.navbar-nav {
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    padding: 0px, 20px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 0, 20px !important;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* -------------banner- -------------------- */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-tittle {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-but {
+    height: 30px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image-fluid {
+    height: 500px;
+    width: 500px;
+}
+
+.bottom-image {
+    width: 100%;
+
+}
+
+/*  --------------services section------------------ */
+#services {
+    margin-top: 150px;background:#f8f9fa;
+}
+
+.service1-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#services {
+    padding: 40px;
+}
+
+#services h4 {
+    padding: 5px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+.tittle::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+
+.tittle::after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+
+}
+#services .btn-primary{
+    margin-top: 20px;
+    box-shadow: none;
+    padding: 5px,25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+/* ------------about-us section---------------------------- */
+#about-us {
+    background:#f8f9fa;
+margin-top: 150px;
+padding-top: 80px;
+}
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+
+#about-us ul {
+    margin-left: 5px;}
+
+#about-us ul li{
+    padding: 10px,0;
+}
+/* --------------testimoninals----------- */
+#testimonials { 
+   
+    background:#f8f9fa;
+margin-top: 150px;
+padding-top: 80px;
+}
+
+
+.testimonial {
+    border-left: 4px solid #7b1798 ;
+   
+}
+.testimonial img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.testimonial{
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+/* ---------------social-media section----------------- */
+#social-media{
+    /* background:#f9fcfc; */
+    background:#f8f9fa;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    margin-top: 250px;
+}
+.socila-icon img{
+    width: 60px;
+    transition: 0.5s;
+}
+.socila-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+/* =-----------------------footer setion------------ */
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+
+}
+.footer-img{
+
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 28px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+     width: 40px;
+     text-align: center;
+     padding-top: 7px;
+     border-radius: 2px;
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+
+} .footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+hr{
+    background-image: #fff;
+}
+ .copr-rights{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+ }
